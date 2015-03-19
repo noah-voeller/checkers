@@ -61,10 +61,18 @@
 		var cellIndex=findCellIndex(row, column);
 		return $("#board tr td")[cellIndex];
 	}
+	function myloop(){
+		for (var x=1; x<=8; x++) {
+			for(var y=1; y<=8; y++){
+				var cell=findCell(x, y);
+				console.log(x, y, cell);
+			}
+		}
+	}
 	</script>
 </head>
 <body>
-	<h1>Draggable checkers piece on a checkers</h1>
+	<h1>Checkers Game!</h1>
 	<div id="drag2">
 		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
 	</div>
