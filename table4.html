@@ -49,8 +49,18 @@
 	
 		$("#drag2").on("dragstop", function(e, ui) {
 			$("#drag2").animate(ui.offset);
+			console.log(ui.offset);
 		});
 	});
+
+	function findCellIndex(row, column){
+		var result=8*(row-1)+column-1;
+		return result;
+	}
+	function findCell(row, column){
+		var cellIndex=findCellIndex(row, column);
+		return $("#board tr td")[cellIndex];
+	}
 	</script>
 </head>
 <body>
