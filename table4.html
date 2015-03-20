@@ -74,6 +74,38 @@
 		var position=$(cell).position();
 		return position;
 	}
+	function istheckeckerwithinthecellrange(checkerpos, cellPos){
+		var minX=cellPos.left;
+		var maxX=cellPos.left+81;
+		var minY=cellPos.top;
+		var maxY=cellPos.top+81;
+		var isInXRange=checkerpos.left>=minX&&checkerpos.left<=maxX;
+		var isInYRange=checkerpos.top>=minY&&checkerpos.top<=maxY;
+		var isInBothRanges=isInXRange&&isInYRange;
+		return isInBothRanges;
+	}
+
+	function testistheckeckerwithinthecellrange() {
+		var checkerPos1 = {
+			top : 10,
+			left: 20
+		};
+		var checkerPos2 = {
+			top : 100,
+			left: 90
+		}
+		var cellPos = {
+			top: 80,
+			left: 60
+		};
+		if(istheckeckerwithinthecellrange(checkerPos1, cellPos)) {
+			throw new Error("Nope! Sorry! Try again! First test failed.");
+		}
+		if(!istheckeckerwithinthecellrange(checkerPos2, cellPos)) {
+			throw new Error("Nope! Sorry! Try again! Second test failed.");
+		}
+		alert("Yay!");
+	}
 	</script>
 </head>
 <body>
