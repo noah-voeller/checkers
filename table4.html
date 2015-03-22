@@ -51,7 +51,7 @@
 			var cell=getCellForCheckerPosition(ui.offset);
 			console.log(cell);
 			if(cell){
-				$("#drag2").animate(ui.offset);
+				$("#drag2").animate(getposition(cell));
 			}
 		});
 	});
@@ -87,8 +87,16 @@
 		var maxX=cellPos.left+81;
 		var minY=cellPos.top;
 		var maxY=cellPos.top+81;
-		var isInXRange=checkerpos.left>=minX&&checkerpos.left<=maxX;
-		var isInYRange=checkerpos.top>=minY&&checkerpos.top<=maxY;
+		console.log(checkerpos);
+		var checkercenter={
+			left : checkerpos.left +40,
+			top : checkerpos.top + 40
+		};
+		//checkerpos.left=checkerpos.left+40;
+		//checkerpos.top=checkerpos.top+40;
+		console.log(checkercenter);
+		var isInXRange=checkercenter.left>=minX&&checkercenter.left<=maxX;
+		var isInYRange=checkercenter.top>=minY&&checkercenter.top<=maxY;
 		var isInBothRanges=isInXRange&&isInYRange;
 		return isInBothRanges;
 	}
