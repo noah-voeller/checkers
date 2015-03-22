@@ -47,8 +47,12 @@
 	$(document).ready(function() {
 		$("#drag2").draggable({helper:"clone"});
 		$("#drag2").on("dragstop", function(e, ui) {
-			$("#drag2").animate(ui.offset);
-			console.log(ui.offset);
+			//console.log(ui.offset);
+			var cell=getCellForCheckerPosition(ui.offset);
+			console.log(cell);
+			if(cell){
+				$("#drag2").animate(ui.offset);
+			}
 		});
 	});
 
@@ -60,13 +64,17 @@
 		var cellIndex=findCellIndex(row, column);
 		return $("#board tr td")[cellIndex];
 	}
-	function myloop(){
+	function getCellForCheckerPosition(checkerPos){
 		for (var x=1; x<=8; x++){
 			for(var y=1; y<=8; y++){
 				var cell=findCell(x, y);
-				console.log(x, y, cell);
-				var position=getposition(cell);
-				console.log(position)
+				//console.log(x, y, cell);
+				var cellPos=getposition(cell);
+				//console.log(cellPos)
+				var isinside=istheckeckerwithinthecellrange(checkerPos, cellPos);
+				if(isinside){
+					return cell;
+				}
 			}
 		}
 	}
