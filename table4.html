@@ -35,7 +35,7 @@
 		position: fixed;
 	}
 
-	#drag2{
+	.drag2{
 		top: 75px;
 	}
 
@@ -45,13 +45,13 @@
 	</style>
 	<script type="text/javascript">
 	$(document).ready(function() {
-		$("#drag2").draggable({helper:"clone"});
-		$("#drag2").on("dragstop", function(e, ui) {
-			//console.log(ui.offset);
+		$(".drag2").draggable({helper:"clone"});
+		$(".drag2").on("dragstop", function(e, ui) {
+			console.log(e.target);
 			var cell=getCellForCheckerPosition(ui.offset);
 			console.log(cell);
 			if(cell){
-				$("#drag2").animate(getposition(cell));
+				$(e.target).animate(getposition(cell));
 			}
 		});
 	});
@@ -126,19 +126,63 @@
 </head>
 <body>
 	<h1>Checkers Game!</h1>
-	<div id="drag2">
+	<div class="drag2">
 		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
 	</div>
 	<table id="board">
 		<tbody>
 			<tr>
-				<td class="black"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
 				<td class="red"></td>
-				<td class="black"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
 				<td class="red"></td>
-				<td class="black"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
 				<td class="red"></td>
-				<td class="black"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
+				<td class="red"></td>
+			</tr>
+			<tr>
+				<td class="red"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
+				<td class="red"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
+				<td class="red"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
+				<td class="red"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
+			</tr>
+			<tr>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
+				<td class="red"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
+				<td class="red"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
+				<td class="red"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
 				<td class="red"></td>
 			</tr>
 			<tr>
@@ -163,53 +207,57 @@
 			</tr>
 			<tr>
 				<td class="red"></td>
-				<td class="black"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
 				<td class="red"></td>
-				<td class="black"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
 				<td class="red"></td>
-				<td class="black"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
 				<td class="red"></td>
-				<td class="black"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
 			</tr>
 			<tr>
-				<td class="black"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
 				<td class="red"></td>
-				<td class="black"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
 				<td class="red"></td>
-				<td class="black"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
 				<td class="red"></td>
-				<td class="black"></td>
-				<td class="red"></td>
-			</tr>
-			<tr>
-				<td class="red"></td>
-				<td class="black"></td>
-				<td class="red"></td>
-				<td class="black"></td>
-				<td class="red"></td>
-				<td class="black"></td>
-				<td class="red"></td>
-				<td class="black"></td>
-			</tr>
-			<tr>
-				<td class="black"></td>
-				<td class="red"></td>
-				<td class="black"></td>
-				<td class="red"></td>
-				<td class="black"></td>
-				<td class="red"></td>
-				<td class="black"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
 				<td class="red"></td>
 			</tr>
 			<tr>
 				<td class="red"></td>
-				<td class="black"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
 				<td class="red"></td>
-				<td class="black"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
 				<td class="red"></td>
-				<td class="black"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
 				<td class="red"></td>
-				<td class="black"></td>
+				<td class="black"><div class="drag2">
+		<img id="img2" alt="checkerspiece.png" src="checkerspiece.png" />
+	</div></td>
 			</tr>
 		</tbody>
 	</table>
