@@ -1,0 +1,276 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"drag",
+				"drag3"
+			],
+			[
+				"is",
+				"istheckeckerwithinthecellrange"
+			],
+			[
+				"che",
+				"checkerpos"
+			],
+			[
+				"get",
+				"getposition"
+			],
+			[
+				"cell",
+				"cell"
+			],
+			[
+				"check",
+				"checkerPos"
+			],
+			[
+				"isI",
+				"isInYRange"
+			],
+			[
+				"ge",
+				"getposition"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"ce",
+				"cellIndex"
+			],
+			[
+				"find",
+				"findCellIndex"
+			],
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"m",
+				"margin-bottom"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"t",
+				"text-align"
+			],
+			[
+				"img",
+				"background-image"
+			],
+			[
+				"backg",
+				"background-position"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/noah/Documents/whatever you want/mouseclicktest.html",
+		"/Users/noah/Documents/whatever you want/click.js",
+		"/Users/noah/Documents/whatever you want/displayingkeypress.html",
+		"/Users/noah/Documents/whatever you want/loops.js",
+		"/Users/noah/Documents/whatever you want/loopsexample.html",
+		"/Users/noah/Documents/whatever you want/loop.html",
+		"/Users/noah/Documents/whatever you want/timegreet.js",
+		"/Users/noah/Documents/whatever you want/timegreet.html",
+		"/Users/noah/Documents/whatever you want/randomnumberfunction.html",
+		"/Users/noah/Documents/whatever you want/businesscards.html",
+		"/Users/noah/Documents/whatever you want/cards.js",
+		"/Users/noah/Documents/checkers/table5.html",
+		"/Users/noah/Documents/whatever you want/testofheadingmethod.html",
+		"/Users/noah/Documents/whatever you want/eventhandlertest.html",
+		"/Users/noah/Documents/whatever you want/displayingexample.html",
+		"/Users/noah/Documents/whatever you want/textmodexample.html",
+		"/Users/noah/Documents/whatever you want/hideorshow.html",
+		"/Users/noah/Documents/whatever you want/position.js",
+		"/Users/noah/Documents/whatever you want/movablelayer.html",
+		"/Users/noah/Documents/whatever you want/htmldoc.html",
+		"/Users/noah/Documents/whatever you want/buttontest.html",
+		"/Users/noah/Documents/checkers/table4.html",
+		"/Users/noah/Documents/whatever you want/swag.html",
+		"/Users/noah/Documents/checkers/checkersboard.html",
+		"/Users/noah/Documents/checkers/table3.html",
+		"/Users/noah/Documents/whatever you want/gist3895938-967d720b3002441932a4a08141ef30aa67abd0d4/script.js",
+		"/Users/noah/Documents/whatever you want/gist3895938-967d720b3002441932a4a08141ef30aa67abd0d4/style.css",
+		"/Users/noah/Documents/whatever you want/gist3895938-967d720b3002441932a4a08141ef30aa67abd0d4/checkers.js",
+		"/Users/noah/Documents/whatever you want/table3.html",
+		"/Users/noah/Documents/whatever you want/draggabletest2.html",
+		"/Users/noah/Documents/whatever you want/table2.html",
+		"/Users/noah/Documents/whatever you want/layout.css",
+		"/Users/noah/Documents/whatever you want/samplelayout2.html",
+		"/Users/noah/Documents/whatever you want/layout.html",
+		"/Users/noah/Documents/whatever you want/samplelayout.html",
+		"/Users/noah/Documents/whatever you want/aboutus.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">",
+			"drag2",
+			"drag",
+			"drag2\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
